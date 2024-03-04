@@ -1,0 +1,392 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Gestor De Empresas",
+    "dateExported": "2024-03-04T05:48:11.628Z",
+    "version": "1.1",
+    "folders": [
+        {
+            "_id": "c1de0155-c9fb-41ac-af9e-5ecdb785f858",
+            "name": "User",
+            "containerId": "",
+            "created": "2024-03-04T01:32:51.439Z",
+            "sortNum": 10000
+        },
+        {
+            "_id": "5639a114-c688-422c-bda2-5b09f09ac4da",
+            "name": "Category",
+            "containerId": "",
+            "created": "2024-03-04T02:40:32.322Z",
+            "sortNum": 20000
+        },
+        {
+            "_id": "0de69a50-f0c3-45e1-8804-e883ea8c8902",
+            "name": "Company",
+            "containerId": "",
+            "created": "2024-03-04T03:55:56.211Z",
+            "sortNum": 40000
+        }
+    ],
+    "requests": [
+        {
+            "_id": "8964c2fa-ac70-49ce-abca-2d4911543514",
+            "colId": "824a4997-4838-47fd-b5f9-38c652473035",
+            "containerId": "c1de0155-c9fb-41ac-af9e-5ecdb785f858",
+            "name": "UserTest",
+            "url": "test",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-03-04T01:34:08.667Z",
+            "modified": "2024-03-04T01:34:44.720Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "70264c6d-6b03-4e4f-ad4d-6643c156029a",
+            "colId": "824a4997-4838-47fd-b5f9-38c652473035",
+            "containerId": "5639a114-c688-422c-bda2-5b09f09ac4da",
+            "name": "CategoryAdd",
+            "url": "category/add",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-03-04T02:40:40.600Z",
+            "modified": "2024-03-04T03:47:47.188Z",
+            "headers": [
+                {
+                    "name": "token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWU1MjYwNmNjNzJlMzE2OTRkYWRhMGMiLCJ1c2VybmFtZSI6ImVjb3kiLCJlbWFpbCI6ImVkd2luQGdtYWlsLmNvbSIsIm5hbWUiOiJlZHdpbiIsImlhdCI6MTcwOTUyNDAyOCwiZXhwIjoxNzA5NTM0ODI4fQ.LJA4YEts7MXXPeBgtTsXPv5io3g5hYeUx-WTNcAU804"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "name",
+                        "value": "Productora"
+                    },
+                    {
+                        "name": "description",
+                        "value": "Produce materiales"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "65e37f1c-1b78-4275-9b97-87dc0ac0ae6e",
+            "colId": "824a4997-4838-47fd-b5f9-38c652473035",
+            "containerId": "0de69a50-f0c3-45e1-8804-e883ea8c8902",
+            "name": "CompanyAdd",
+            "url": "company/add",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-03-04T04:20:28.319Z",
+            "modified": "2024-03-04T05:38:11.720Z",
+            "headers": [
+                {
+                    "name": "token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWU1MjYwNmNjNzJlMzE2OTRkYWRhMGMiLCJ1c2VybmFtZSI6ImVjb3kiLCJlbWFpbCI6ImVkd2luQGdtYWlsLmNvbSIsIm5hbWUiOiJlZHdpbiIsImlhdCI6MTcwOTUyNDAyOCwiZXhwIjoxNzA5NTM0ODI4fQ.LJA4YEts7MXXPeBgtTsXPv5io3g5hYeUx-WTNcAU804"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "name",
+                        "value": "Walmart"
+                    },
+                    {
+                        "name": "description",
+                        "value": "Despensa"
+                    },
+                    {
+                        "name": "yearsOfExperience",
+                        "value": "1"
+                    },
+                    {
+                        "name": "category",
+                        "value": "65e54447ab535cebf67cbfb5"
+                    },
+                    {
+                        "name": "levelOfImpact",
+                        "value": "LOW"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "b6122943-db8a-4330-a483-b1bbe91a8573",
+            "colId": "824a4997-4838-47fd-b5f9-38c652473035",
+            "containerId": "c1de0155-c9fb-41ac-af9e-5ecdb785f858",
+            "name": "UserRegister",
+            "url": "register",
+            "method": "POST",
+            "sortNum": 15000,
+            "created": "2024-03-04T01:37:19.958Z",
+            "modified": "2024-03-04T01:37:19.958Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "name",
+                        "value": "edwin"
+                    },
+                    {
+                        "name": "username",
+                        "value": "ecoy"
+                    },
+                    {
+                        "name": "email",
+                        "value": "ecoy@gmail.com"
+                    },
+                    {
+                        "name": "password",
+                        "value": "12345678"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "4917e71c-51c2-4155-9ff1-3d7881d11e1a",
+            "colId": "824a4997-4838-47fd-b5f9-38c652473035",
+            "containerId": "5639a114-c688-422c-bda2-5b09f09ac4da",
+            "name": "update",
+            "url": "category/update/65e54447ab535cebf67cbfb5",
+            "method": "PUT",
+            "sortNum": 20000,
+            "created": "2024-03-04T03:45:42.858Z",
+            "modified": "2024-03-04T05:37:41.754Z",
+            "headers": [
+                {
+                    "name": "token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWU1MjYwNmNjNzJlMzE2OTRkYWRhMGMiLCJ1c2VybmFtZSI6ImVjb3kiLCJlbWFpbCI6ImVkd2luQGdtYWlsLmNvbSIsIm5hbWUiOiJlZHdpbiIsImlhdCI6MTcwOTUyNDAyOCwiZXhwIjoxNzA5NTM0ODI4fQ.LJA4YEts7MXXPeBgtTsXPv5io3g5hYeUx-WTNcAU804"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "name",
+                        "value": "Distrubuidoraa"
+                    },
+                    {
+                        "name": "description",
+                        "value": "Venta de alimentos"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "7af95ea8-62c0-483b-ab6b-ba2552c83c1a",
+            "colId": "824a4997-4838-47fd-b5f9-38c652473035",
+            "containerId": "0de69a50-f0c3-45e1-8804-e883ea8c8902",
+            "name": "CompanyUpdate",
+            "url": "company/update/65e55b129a47a5bea2e0662c",
+            "method": "PUT",
+            "sortNum": 20000,
+            "created": "2024-03-04T04:20:35.375Z",
+            "modified": "2024-03-04T05:46:01.697Z",
+            "headers": [
+                {
+                    "name": "token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWU1MjYwNmNjNzJlMzE2OTRkYWRhMGMiLCJ1c2VybmFtZSI6ImVjb3kiLCJlbWFpbCI6ImVkd2luQGdtYWlsLmNvbSIsIm5hbWUiOiJlZHdpbiIsImlhdCI6MTcwOTUyNDAyOCwiZXhwIjoxNzA5NTM0ODI4fQ.LJA4YEts7MXXPeBgtTsXPv5io3g5hYeUx-WTNcAU804"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "name",
+                        "value": "SuperMarket"
+                    },
+                    {
+                        "name": "name",
+                        "value": "hola",
+                        "isDisabled": true
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "32ac9600-7afe-4152-8668-99b92be06693",
+            "colId": "824a4997-4838-47fd-b5f9-38c652473035",
+            "containerId": "c1de0155-c9fb-41ac-af9e-5ecdb785f858",
+            "name": "UserLogin",
+            "url": "login",
+            "method": "POST",
+            "sortNum": 25000,
+            "created": "2024-03-04T01:38:40.693Z",
+            "modified": "2024-03-04T01:38:40.693Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "usernameOrEmail",
+                        "value": "ecoy"
+                    },
+                    {
+                        "name": "password",
+                        "value": "12345678"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "756f2a1c-9883-4fae-9c7b-a77b1d9e7061",
+            "colId": "824a4997-4838-47fd-b5f9-38c652473035",
+            "containerId": "5639a114-c688-422c-bda2-5b09f09ac4da",
+            "name": "delete",
+            "url": "category/deleteC/65e55dd76c60fc8916a49f59",
+            "method": "DELETE",
+            "sortNum": 30000,
+            "created": "2024-03-04T03:45:45.074Z",
+            "modified": "2024-03-04T05:38:00.012Z",
+            "headers": [
+                {
+                    "name": "token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWU1MjYwNmNjNzJlMzE2OTRkYWRhMGMiLCJ1c2VybmFtZSI6ImVjb3kiLCJlbWFpbCI6ImVkd2luQGdtYWlsLmNvbSIsIm5hbWUiOiJlZHdpbiIsImlhdCI6MTcwOTUyNDAyOCwiZXhwIjoxNzA5NTM0ODI4fQ.LJA4YEts7MXXPeBgtTsXPv5io3g5hYeUx-WTNcAU804"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "b35917a6-1094-497f-85ad-0a06c734e785",
+            "colId": "824a4997-4838-47fd-b5f9-38c652473035",
+            "containerId": "c1de0155-c9fb-41ac-af9e-5ecdb785f858",
+            "name": "UserUpdate",
+            "url": "update/65e52606cc72e31694dada0c",
+            "method": "PUT",
+            "sortNum": 35000,
+            "created": "2024-03-04T01:38:46.205Z",
+            "modified": "2024-03-04T05:36:18.280Z",
+            "headers": [
+                {
+                    "name": "token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWU1MjYwNmNjNzJlMzE2OTRkYWRhMGMiLCJ1c2VybmFtZSI6ImVjb3kiLCJlbWFpbCI6ImVkd2luQGdtYWlsLmNvbSIsIm5hbWUiOiJlZHdpbiIsImlhdCI6MTcwOTUzMDU2MiwiZXhwIjoxNzA5NTQxMzYyfQ.-3GhUypUsxiqwwMyJyE3-ZJdKbJgqpCIy68AvOJznYc"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "name",
+                        "value": "edwin"
+                    },
+                    {
+                        "name": "email",
+                        "value": "edwin@gmail.com"
+                    },
+                    {
+                        "name": "username",
+                        "value": "ecoy",
+                        "isDisabled": true
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "935f34ba-ccb2-4da8-a39b-d12aae21e9f6",
+            "colId": "824a4997-4838-47fd-b5f9-38c652473035",
+            "containerId": "0de69a50-f0c3-45e1-8804-e883ea8c8902",
+            "name": "CompanyOrderAZ",
+            "url": "company/orderAZ",
+            "method": "GET",
+            "sortNum": 45000,
+            "created": "2024-03-04T04:57:39.359Z",
+            "modified": "2024-03-04T04:58:24.749Z",
+            "headers": [
+                {
+                    "name": "token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWU1MjYwNmNjNzJlMzE2OTRkYWRhMGMiLCJ1c2VybmFtZSI6ImVjb3kiLCJlbWFpbCI6ImVkd2luQGdtYWlsLmNvbSIsIm5hbWUiOiJlZHdpbiIsImlhdCI6MTcwOTUyNDAyOCwiZXhwIjoxNzA5NTM0ODI4fQ.LJA4YEts7MXXPeBgtTsXPv5io3g5hYeUx-WTNcAU804"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "cbc7792f-2ccd-49b1-a5d7-d580a284e864",
+            "colId": "824a4997-4838-47fd-b5f9-38c652473035",
+            "containerId": "0de69a50-f0c3-45e1-8804-e883ea8c8902",
+            "name": "CompanyOrderZA",
+            "url": "company/orderZA",
+            "method": "GET",
+            "sortNum": 55000,
+            "created": "2024-03-04T05:00:44.450Z",
+            "modified": "2024-03-04T05:01:08.691Z",
+            "headers": [
+                {
+                    "name": "token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWU1MjYwNmNjNzJlMzE2OTRkYWRhMGMiLCJ1c2VybmFtZSI6ImVjb3kiLCJlbWFpbCI6ImVkd2luQGdtYWlsLmNvbSIsIm5hbWUiOiJlZHdpbiIsImlhdCI6MTcwOTUyNDAyOCwiZXhwIjoxNzA5NTM0ODI4fQ.LJA4YEts7MXXPeBgtTsXPv5io3g5hYeUx-WTNcAU804"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "281a0c81-8c61-4c72-9ca9-d7af081a224e",
+            "colId": "824a4997-4838-47fd-b5f9-38c652473035",
+            "containerId": "0de69a50-f0c3-45e1-8804-e883ea8c8902",
+            "name": "CompanyOrderYearsOfExperience",
+            "url": "company/orderYearsOfExperience",
+            "method": "GET",
+            "sortNum": 65000,
+            "created": "2024-03-04T05:01:36.164Z",
+            "modified": "2024-03-04T05:02:01.049Z",
+            "headers": [
+                {
+                    "name": "token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWU1MjYwNmNjNzJlMzE2OTRkYWRhMGMiLCJ1c2VybmFtZSI6ImVjb3kiLCJlbWFpbCI6ImVkd2luQGdtYWlsLmNvbSIsIm5hbWUiOiJlZHdpbiIsImlhdCI6MTcwOTUyNDAyOCwiZXhwIjoxNzA5NTM0ODI4fQ.LJA4YEts7MXXPeBgtTsXPv5io3g5hYeUx-WTNcAU804"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "b77f35c6-76e1-4e87-be58-078c6e4b1c72",
+            "colId": "824a4997-4838-47fd-b5f9-38c652473035",
+            "containerId": "0de69a50-f0c3-45e1-8804-e883ea8c8902",
+            "name": "CompanyExcelReport",
+            "url": "company/excelReport",
+            "method": "GET",
+            "sortNum": 75000,
+            "created": "2024-03-04T05:09:10.625Z",
+            "modified": "2024-03-04T05:09:47.521Z",
+            "headers": [
+                {
+                    "name": "token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWU1MjYwNmNjNzJlMzE2OTRkYWRhMGMiLCJ1c2VybmFtZSI6ImVjb3kiLCJlbWFpbCI6ImVkd2luQGdtYWlsLmNvbSIsIm5hbWUiOiJlZHdpbiIsImlhdCI6MTcwOTUyNDAyOCwiZXhwIjoxNzA5NTM0ODI4fQ.LJA4YEts7MXXPeBgtTsXPv5io3g5hYeUx-WTNcAU804"
+                }
+            ],
+            "params": [],
+            "tests": []
+        }
+    ],
+    "settings": {
+        "options": {
+            "baseUrl": "localhost:2656/"
+        }
+    }
+}
